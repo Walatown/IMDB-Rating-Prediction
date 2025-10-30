@@ -37,7 +37,7 @@ Launch Jupyter and open the notebook:
 Always show details
 jupyter notebook
 
-4) What the notebook does (at a glance)
+## 4) What the notebook does (at a glance)
 
 Loads movies.csv (6,820 movies; ~1986–2016) with columns like name, genre, budget, gross, released, runtime, score (IMDb user rating), votes, star, writer, company, country, etc.
 
@@ -49,7 +49,7 @@ Trains baseline ML models (e.g., LinearRegression, KNeighbors, SVR) using scikit
 
 Uses SHAP to interpret feature importance for model predictions (if enabled).
 
-5) Troubleshooting
+## 5) Troubleshooting
 
 FileNotFoundError: 'movies.csv' → Place the Kaggle file next to the notebook or update the path in the pd.read_csv(...) call.
 
@@ -57,7 +57,7 @@ shap/numba install errors → Pin versions (e.g., pip install shap==0.42.1 numba
 
 Plotly not showing → In Jupyter, outputs appear inline; ensure you’re running all cells and not in a headless environment.
 
-6) Citation
+## 6) Citation
 
 Dataset:
 Grijalva, D. (2020). Movie Industry. Kaggle. https://www.kaggle.com/datasets/danielgrijalvas/movies
